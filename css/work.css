@@ -1,0 +1,108 @@
+.mainBanner{
+    width: 100%;
+    height: 625px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/images/image 22.png");
+    background-position: center;
+    background-size: cover;
+}
+.mainBanner__wrapper{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.mainBanner__wrapper h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    max-width: 610px;
+    margin-top: 200px;
+}
+.submitButton{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #1771F1;
+    border-radius: 10px;
+    min-width: 237px;
+    height: 61px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.worksBox{
+    margin: 70px 0;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.worksBox h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #1E2833;
+}
+.works{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+.work{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.work div{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 760px;
+    width: 100%;
+    height: 368px;
+    z-index: 1;
+}
+.work p{
+    position: absolute;
+    right: 0;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 632px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E2833;
+    z-index: 2;
+}
+.work_reversed{
+    justify-content: flex-end;
+}
+.work_reversed p{
+    left: 0;
+    right: unset;
+}
